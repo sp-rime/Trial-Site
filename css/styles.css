@@ -1,0 +1,144 @@
+h1,h2{
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h4{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+
+/* CHANGE BACKGROUND-SIZE TO 100% */
+#initial{
+  background: url("https://images2.alphacoders.com/757/75742.jpg");
+  background-size: 100%;
+  color: white;
+}
+
+.intro{
+  width: 80%;
+  margin: auto;
+}
+
+/* TO CENTER NAV BAR, SET DISPLAY TO INLINE-BLOCK AND CHANGE PARENT TO CENTER-ALIGN
+.nb{
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}*/
+
+.nb{
+
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.logo{
+  border-radius: 100%;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.first-btn{
+  margin-top:20px;
+  font-weight: 800;
+  border: 4px solid;;
+}
+
+.logo_and_text{
+  line-height: 1.5;
+}
+.container_fluid{
+  padding: 6% 13%;
+}
+
+
+
+
+/* SECOND PART */
+#About{
+  background-color: white;
+}
+
+/* THIRD PART */
+.caroimg{
+  display: inline-block;
+  width:100%;
+  height:600px;
+}
+
+#Expertise{
+  background-color: black;
+}
+
+p{
+  font-size: 2rem;
+  font-weight: 500;
+  color:black;
+  line-height: 1.5;
+}
+
+/* FOURTH PART */
+
+.head4{
+  font-size: 1.5rem;
+}
+
+.img_part_4{
+  width:300px;
+  height:300px;
+  padding-bottom: 20px;
+}
+
+.fourthp{
+  font-size: 1.5rem;
+}
+
+
+/* FOOTER */
+#Final{
+  background-color: #36648B;
+  color: white;
+}
+
+.final-img{
+  padding: 15px 25px;
+}
+
+@media (max-width:840px) {
+  .logo{
+    width:80%;
+  }
+  h1,h2{
+    font-size: 2rem;
+  }
+  h4,p,.fourthp{
+    font-size: 1.2rem;
+  }
+
+  .first-btn{
+    font-weight: 600;
+    width: 100%;
+    font-size: 1rem;
+    border: 2px solid;
+  }
+  .caroimg{
+    width: 100%;
+    height: 100%;
+  }
+
+  .container_fluid{
+    padding:10%;
+  }
+
+
+}
